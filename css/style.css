@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#div-form{
+    border: 1px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+    height: auto;
+    border-radius: 10px;
+    justify-content:center;
+    background-color: rgba(0, 0, 0, 0.42);
+    box-shadow: 16px 17px 28px -10px rgba(0,0,0,0.75);
+    backdrop-filter: blur(15px) brightness(0.91) opacity(75%);
+    font-family: "Noto Sans KR", sans-serif;
+    width: 80%;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 16px;
+    height: 50px;
+    border-radius: 10px;
+}
+P{
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+button{
+    width: 100%;
+    margin-bottom: 16px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: medium;
+    text-decoration:black;
+    font-weight: bold;
+}
+
+img{
+ width: 100vw;
+ height: 100vh;
+ background-size: contain;
+}
+
+#continue{
+    background-color: rgb(59, 87, 59);
+}
+h1{
+    color:white;
+    display: flex;
+}
+
+a{
+   color: rgb(51, 131, 51);
+}
+
+small{
+    font-size:larger;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url("../img/FOTO..jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
